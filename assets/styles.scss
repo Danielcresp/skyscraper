@@ -100,3 +100,39 @@ $menu-color: #F1F3EE;
     color: $menu-color;
     font-weight: bold; 
 }
+
+// banner
+.banner{
+    background-image: url("img/ilu.png");
+    @include background-img();
+    @include flexbox();
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 565px;
+}
+.banner .slogan{
+    padding: 30px 0px 0px 40px;
+    background-color: $secundary;
+    opacity: 0.9;
+    filter:  alpha(opacity=30);
+    width: 500px;
+    height: 150px;
+}
+.slogan-text{
+    color: $menu-color;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.slogan-text-add{
+    font-weight: bold;
+}
+
+// endbanner
+
+// main
+.main{
+
+}
