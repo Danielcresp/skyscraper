@@ -129,9 +129,25 @@ $menu-color: #F1F3EE;
 .slogan-text-add{
     font-weight: bold;
 }
-
 // endbanner
 
+.grup-title{
+    padding-top: 3rem; 
+    text-align: center;
+    border: 0px;
+    background-image: url("img/grup.png");
+    @include background-img();
+    width: 100%;
+    height: 150px;
+    color: $menu-color;
+}
+.grup-title h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.grup-title p{
+    font-size: 20px;
+}
 // main
 .main{
 
