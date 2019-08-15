@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
     <title>Skyscraper</title>
 </head>
 <body>
@@ -44,25 +46,55 @@
                 <h1>Create Your Own Genuine Web Masterpiece</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
-            <div class="items container ">
-                <div>
-                    <h4>Idea</h4>
+            <div class="items container">
+                <div class="items-content">
+                    <h2>Idea</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
-                <div>
-                    <h4>Make research</h4>
+                <div class="items-content">
+                    <h2>Make research</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
-                <div>
-                    <h4>Do the work</h4>
+                <div class="items-content">
+                    <h2>Do the work</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </div>
         </section>
-        <section>
-            <h1>Some of Our Work</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-            <div class="slider">
+        <section class="slider">
+            <div class="slider-main container" >
+                <h1>Some of Our Work</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <div id="carrusel">
+                        <a href="#" class="left-arrow"><img src="assets/images/left-arrow.png" /></a>
+                        <a href="#" class="right-arrow"><img src="assets/images/right-arrow.png" /></a>
+                        <div class="carrusel">
+                            <div class="product" id="product_0">
+                                <img src="assets/gallery/01.jpg" />
+                                <p>Word Name</p>
+                            </div>
+                            <div class="product" id="product_1">
+                                <img src="assets/gallery/02.jpg"/>
+                                <p>Word Name</p>
+                            </div>
+                            <div class="product" id="product_2">
+                                <img src="assets/gallery/03.jpg"/>
+                                <p>Word Name</p>
+                            </div>
+                            <div class="product" id="product_3">
+                                <img src="assets/gallery/01.jpg"/>
+                                <p>Word Name</p>
+                            </div>
+                            <div class="product" id="product_4">
+                                <img src="assets/gallery/02.jpg"/>
+                                <p>Word Name</p>
+                            </div>
+                            <div class="product" id="product_5">
+                                <img src="assets/gallery/03.jpg"/>
+                                <p>Word Name</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
         <section>
@@ -102,5 +134,6 @@
             <li>Home</li>
         </div>
     </footer>
+    <script src="assets/script.js"></script>
 </body>
 </html>
