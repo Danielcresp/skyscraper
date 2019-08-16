@@ -12,26 +12,21 @@
 <body>
     <header class="header">
         <div class="container header-menu">
-           <figure class="logo">
-               <a href="#" class="logo-text"><img class="logo-img" src="./assets/img/logo.png" alt="">Skyscraper</a>
-            </figure>
-            <nav class="menu">
-                <ul>
-                    <li><a href="home.html">HOME</a></li>
-                </ul>
-                <ul>
-                <li><a href="page.html">PAGES</a></li>
-                </ul>
-                <ul>
-                    <li><a href="feature.html">FEATURE</a></li>
-                </ul>
-                <ul>
-                    <li><a href="blog.html">BLOG</a></li>
-                </ul>
-                <ul>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
+            <div class="container header-content">
+                <figure class="logo">
+                <a href="#" class="logo-text"><img class="logo-img" src="./assets/img/logo.png" alt="">Skyscraper</a>
+                </figure>
+                <nav class="menu">
+                    <button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
+                    <ul class="grt-menu">
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">FEATURE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <section class="banner">
                 <div class="slogan">
@@ -158,14 +153,17 @@
             </div>
             <div class="footer-section">
                 <h3>Social</h3>
-                <li>Facebook</li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
             </div>
             <div class="footer-section">
                 <h3>Get in Touch</h3>
-                <li>Home</li>
+                <li><a href="#">Home</a></li>
             </div>
         </div>
     </footer>
     <script src="assets/script.js"></script>
+    <script src="assets/grt-responsive-menu.js"></script>
 </body>
 </html>
