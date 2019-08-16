@@ -283,6 +283,7 @@ ul.grt-menu li.active a:after  {
 .slogan-text-add{
     font-weight: bold;
 }
+
 // endbanner
 
 .grup-title{
@@ -320,6 +321,16 @@ ul.grt-menu li.active a:after  {
 .items-content p{
     color: $text-color;
     font-size: 16px;
+}
+/* Mobile only style */
+@media (max-width:767px) {
+    .grup-title{
+        padding-top: 3rem; 
+        padding-bottom: 4rem; 
+    }
+    .items-content{
+        margin: 10px;
+    }
 }
 // Slider
 .slider{
@@ -402,6 +413,7 @@ ul.grt-menu li.active a:after  {
     font-weight: lighter;
     filter:  alpha(opacity=30);
 }
+
 //Story
 .story{
     margin: 100px;
@@ -414,7 +426,7 @@ ul.grt-menu li.active a:after  {
     justify-content: center;
 }
 .story-items{
-    width: 315px;
+    width: 300px;
     height: 180px;
     margin: 10px;
 }
@@ -422,7 +434,7 @@ ul.grt-menu li.active a:after  {
     background-color: $text-co;
     opacity: 0.2;
     cursor:pointer;
-    width: 315px;
+    width: 300px;
     height: 180px;
 }
 .story-items p{
@@ -431,6 +443,18 @@ ul.grt-menu li.active a:after  {
     background-color: $primary;
     opacity: 0.9;
     font-weight: bold;
+}
+/* Tablet only style */
+@media (min-width:768px) and (max-width:1000px) {
+    .story-items {
+        margin: 20px;
+    }
+}
+/* Mobile only style */
+@media (max-width:767px) {
+    .story-items {
+        margin: 40px;
+    }
 }
 // circle
 .skys{
@@ -480,6 +504,44 @@ ul.grt-menu li.active a:after  {
     margin-top: 20px;
     color: $menu-color;
     font-size: 30px;
+}
+/* Tablet only style */
+@media (min-width:768px) and (max-width:1000px) {
+    .content-circle{
+        margin: 50px 20px 20px 20px;
+        text-align: center;
+    }
+}
+/* Mobile only style */
+@media (max-width:767px) {
+    .content-circle{
+        margin: 0px 5px;
+        text-align: center;
+    }
+    .circle{
+        @include flexbox();
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .in-circle{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-weight: bold;
+    }
+    .in-circle p{
+        font-size: 20px;
+        margin: 1%;
+        color: $menu-color;
+    }
+    .content-circle .circle-title{
+        margin-top: 0px;
+        color: $menu-color;
+        font-size: 25px;
+    }
 }
 // Footer
 .footer{

@@ -290,6 +290,14 @@ ul.grt-menu li.active a:after {
   color: #a0a0a0;
   font-size: 16px; }
 
+/* Mobile only style */
+@media (max-width: 767px) {
+  .grup-title {
+    padding-top: 3rem;
+    padding-bottom: 4rem; }
+
+  .items-content {
+    margin: 10px; } }
 .slider {
   background-image: url("img/slider.png");
   background-repeat: no-repeat;
@@ -386,7 +394,7 @@ ul.grt-menu li.active a:after {
   justify-content: center; }
 
 .story-items {
-  width: 315px;
+  width: 300px;
   height: 180px;
   margin: 10px; }
 
@@ -394,7 +402,7 @@ ul.grt-menu li.active a:after {
   background-color: #BABCBE;
   opacity: 0.2;
   cursor: pointer;
-  width: 315px;
+  width: 300px;
   height: 180px; }
 
 .story-items p {
@@ -404,6 +412,14 @@ ul.grt-menu li.active a:after {
   opacity: 0.9;
   font-weight: bold; }
 
+/* Tablet only style */
+@media (min-width: 768px) and (max-width: 1000px) {
+  .story-items {
+    margin: 20px; } }
+/* Mobile only style */
+@media (max-width: 767px) {
+  .story-items {
+    margin: 40px; } }
 .skys {
   margin-top: 30px;
   background-image: url("img/inverse.png");
@@ -468,6 +484,44 @@ ul.grt-menu li.active a:after {
   color: #F1F3EE;
   font-size: 30px; }
 
+/* Tablet only style */
+@media (min-width: 768px) and (max-width: 1000px) {
+  .content-circle {
+    margin: 50px 20px 20px 20px;
+    text-align: center; } }
+/* Mobile only style */
+@media (max-width: 767px) {
+  .content-circle {
+    margin: 0px 5px;
+    text-align: center; }
+
+  .circle {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px; }
+
+  .in-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-weight: bold; }
+
+  .in-circle p {
+    font-size: 20px;
+    margin: 1%;
+    color: #F1F3EE; }
+
+  .content-circle .circle-title {
+    margin-top: 0px;
+    color: #F1F3EE;
+    font-size: 25px; } }
 .footer {
   padding-top: 60px;
   background-color: #313332;
