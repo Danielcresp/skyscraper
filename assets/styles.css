@@ -233,6 +233,7 @@ ul.grt-menu li.active a:after {
     padding: 1px 10px;
     font-size: 25px; } }
 .banner {
+  background-image: url("./assets/img/banner.webp");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
