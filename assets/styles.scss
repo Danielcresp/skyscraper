@@ -277,6 +277,7 @@ ul.grt-menu li.active a:after  {
 
 // banner
 .banner{
+    // background-image: url("./assets/img/banner.webp");
     @include background-img();
     @include flexbox();
     justify-content: flex-end;
