@@ -626,11 +626,11 @@ ul.grt-menu li.active a:after {
   color: #F1F3EE; }
 
 /* Tablet only style */
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   .footer-section {
     padding: 1px; }
 
-  .footer-sections .container {
+  .footer-sections.container {
     width: 95%; }
 
   .footer {
@@ -640,8 +640,8 @@ ul.grt-menu li.active a:after {
   .footer-section {
     padding: 1px; }
 
-  .footer-sections .container {
-    width: 95%; }
+  .footer-sections.container {
+    width: 95% !important; }
 
   .footer {
     height: 300px; } }
